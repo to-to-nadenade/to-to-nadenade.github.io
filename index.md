@@ -6,7 +6,7 @@ title: こんにちは、とーとです☺️
 
 スマートフォンのアプリをつくったりしています。
 
-<h1/>なでくまCombo!</h1>
+<h1/>なでくまCombo!</h>
   🧸 くまのぬいぐるみを「なでて」あそぼう♪<br>
   『なでくまCombo!』は、かわいくてたのしい ぬいぐるみカジュアルゲーム！
 [android](https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo&hl=ja)
