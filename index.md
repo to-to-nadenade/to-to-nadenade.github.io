@@ -6,7 +6,7 @@ title: to-to homepage
 I create smartphone apps and games.<br><br>
 
 
-## なでくまCombo!　　　　　　Pat the Bear!
+## なでくまCombo!　 Pat the Bear!
   🧸 くまのぬいぐるみを「なでて」あそぼう♪<br>
   『なでくまCombo!』は、かわいくてたのしい ぬいぐるみカジュアルゲーム！<br>
   🧸 Let’s play by “petting” the teddy bears!<br>
