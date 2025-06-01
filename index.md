@@ -1,5 +1,5 @@
 ---
-title: こんにちは、とーとです☺️
+title: to-to homepage
 ---
 
 # とーとのホームページ
