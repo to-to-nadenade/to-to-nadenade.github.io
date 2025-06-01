@@ -4,14 +4,12 @@ title: こんにちは、とーとです☺️
 
 # とーとのホームページ
 
-スマートフォンのアプリをつくったりしています。
+スマートフォンのアプリをつくったりしています。<br><br>
 
-##なでくまCombo!
+#なでくまCombo!
   🧸 くまのぬいぐるみを「なでて」あそぼう♪<br>
-  『なでくまCombo!』は、かわいくてたのしい ぬいぐるみカジュアルゲーム！
+  『なでくまCombo!』は、かわいくてたのしい ぬいぐるみカジュアルゲーム！<br>
 [android](https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo&hl=ja)
-
-
 
 <br>
 <br>
