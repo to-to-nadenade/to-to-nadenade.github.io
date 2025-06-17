@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Privacy Policy | Pat the Bear!</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1 {
+      color: #444;
+    }
+    hr {
+      margin: 30px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+
+  <p><strong>“Pat the Bear!”</strong> (hereinafter referred to as “this app”) respects the privacy of users and is committed to protecting personal information. This app uses Google AdMob to display advertisements, and some information may be automatically collected for this purpose.</p>
+
+  <h2>1. Information Collected</h2>
+  <p>This app may automatically collect the following information:</p>
+  <ul>
+    <li>Advertising identifiers (e.g., Ad ID)</li>
+    <li>Device information (model, OS version)</li>
+    <li>App usage data (e.g., ad impressions, clicks)</li>
+  </ul>
+  <p>This information is collected anonymously and cannot identify users personally.</p>
+
+  <h2>2. Purpose of Use</h2>
+  <p>The collected information is used for:</p>
+  <ul>
+    <li>Optimization and personalization of ads</li>
+    <li>Advertising effectiveness measurement</li>
+    <li>App improvement</li>
+  </ul>
+
+  <h2>3. About Ads</h2>
+  <p>This app uses Google’s ad service “AdMob.” For more about Google’s policies, visit:</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">Google AdMob Policies</a></li>
+  </ul>
+
+  <h2>4. Third-Party Disclosure</h2>
+  <p>This app does not share information with third parties except for the delivery of ads.</p>
+
+  <h2>5. Contact</h2>
+  <p>If you have any questions about this policy, contact us at:</p>
+  <p>sck54141+nadenade@gmail.com</p>
+
+  <hr />
+
+  <h1>プライバシーポリシー</h1>
+
+  <p>「なでくまCombo!」（以下、「本アプリ」といいます）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。本アプリでは、Google AdMob による広告配信を行っており、そのために一部の情報が自動的に収集されることがあります。</p>
+
+  <h2>1. 収集する情報</h2>
+  <ul>
+    <li>広告識別子（広告IDなど）</li>
+    <li>デバイス情報（機種名、OSバージョンなど）</li>
+    <li>アプリの利用状況（広告の表示回数やクリックなど）</li>
+  </ul>
+  <p>これらの情報は匿名で収集され、個人を特定することはありません。</p>
+
+  <h2>2. 利用目的</h2>
+  <ul>
+    <li>広告の最適化とパーソナライズ</li>
+    <li>広告の効果測定</li>
+    <li>アプリの品質向上</li>
+  </ul>
+
+  <h2>3. 広告について</h2>
+  <p>本アプリでは、Google が提供する広告サービス「AdMob」を利用しています。Google の広告に関するポリシーはこちらをご確認ください：</p>
+  <ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank">Google プライバシーポリシー</a></li>
+    <li><a href="https://support.google.com/admob/answer/6128543" target="_blank">AdMob ポリシー</a></li>
+  </ul>
+
+  <h2>4. 第三者提供について</h2>
+  <p>広告配信以外の目的で第三者に情報を提供することはありません。</p>
+
+  <h2>5. お問い合わせ</h2>
+  <p>プライバシーポリシーに関するお問い合わせは、以下のメールアドレスまでお願いします：</p>
+  <p>sck54141+nadenade@gmail.com</p>
+</body>
+</html>
