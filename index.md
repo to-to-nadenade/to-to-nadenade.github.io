@@ -12,7 +12,7 @@ I create smartphone apps and games.
   🧸 Let’s play by “petting” the teddy bears!<br>
   Pat the Bear!is a cute and fun casual game with adorable stuffed animals!<br>
   [iOS(App Store)](https://apps.apple.com/us/app/pat-the-bear/id6747101851)<br>
-[android(Google Play)](https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo)<br>
+[android(Google Play)](https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo)
 
 <hr>
 
