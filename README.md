@@ -1,2 +1,2 @@
 # to-to-nadenade.github.io
-とーとのホームページ
+Tantanto Company HP
