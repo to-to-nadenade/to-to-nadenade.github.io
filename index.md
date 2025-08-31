@@ -10,9 +10,8 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 <section id="lang-ja" class="lang-section active" markdown="1">
 
-# Tantanto Company homepage
+# たんたんとカンパニーhomepage
 スマートフォンのアプリをつくったりしています。  
-*たんたんとカンパニー（Tantanto Company）*
 
 ---
 
@@ -30,7 +29,8 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 声を録音して「おばけ」「ロボット」などに変身できる、楽しいボイスエフェクトアプリ！  
 
 - [プライバシーポリシー](./VoiceRecEffect/KOETRON_policy.html)
-- [利用規約](./VoiceRecEffect/terms.html)  
+- [利用規約](./VoiceRecEffect/terms.html)
+
 ---
 
 
@@ -41,9 +41,8 @@ Mail: sck54141+githubpages@gmail.com
 
 <section id="lang-en" class="lang-section" markdown="1">
 
-# to-to homepage
+# Tantanto Company homepage
 We create smartphone apps and games.  
-*Tantanto Company*
 
 ---
 
