@@ -21,11 +21,15 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 <p>
   <a href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height:56px;vertical-align:middle;">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+         alt="Download on the App Store"
+         class="store-badge">
   </a>
   &nbsp;
   <a href="https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo">
-    <img src="https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png" alt="Google Play で手に入れよう" style="height:56px;vertical-align:middle;">
+    <img src="https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png"
+         alt="Google Play で手に入れよう"
+         class="store-badge">
   </a>
 </p>
 
@@ -59,11 +63,15 @@ Let’s play by “petting” the teddy bears!
 
 <p>
   <a href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the App Store" style="height:56px;vertical-align:middle;">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+         alt="Download on the App Store"
+         class="store-badge">
   </a>
   &nbsp;
   <a href="https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo">
-    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" style="height:56px;vertical-align:middle;">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+         alt="Get it on Google Play"
+         class="store-badge">
   </a>
 </p>
 
@@ -118,4 +126,5 @@ btnEn.addEventListener('click', () => applyLang('en'));
 .lang-section.active{display:block;}
 button{padding:4px 10px; margin-left:4px;}
 button.active{background:#007acc;color:#fff;}
+.store-badge{height:56px; vertical-align:middle;}
 </style>
