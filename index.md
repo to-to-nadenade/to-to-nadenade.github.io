@@ -20,16 +20,15 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 『なでくまCombo!』は、かわいくてたのしい ぬいぐるみカジュアルゲーム！
 
 <p class="store-badges">
-  <a class="badge" href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
+  <a class="badge-appstore" href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
          alt="Download on the App Store">
   </a>
-  <a class="badge" href="https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo">
+  <a class="badge-googleplay" href="https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo">
     <img src="https://play.google.com/intl/ja/badges/static/images/badges/ja_badge_web_generic.png"
          alt="Google Play で手に入れよう">
   </a>
 </p>
-
 
 - [プライバシーポリシー](./nadekuma_policy.html)
 
@@ -60,16 +59,15 @@ Let’s play by “petting” the teddy bears!
 **Pat the Bear!** is a cute and fun casual game with adorable stuffed animals.
 
 <p class="store-badges">
-  <a class="badge" href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
+  <a class="badge-appstore" href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
     <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
          alt="Download on the App Store">
   </a>
-  <a class="badge" href="https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo">
+  <a class="badge-googleplay" href="https://play.google.com/store/apps/details?id=com.toto.NadekumaCombo">
     <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
          alt="Get it on Google Play">
   </a>
 </p>
-
 
 - [Privacy Policy](./nadekuma_policy.html)
 
@@ -122,25 +120,26 @@ btnEn.addEventListener('click', () => applyLang('en'));
 .lang-section.active{display:block;}
 button{padding:4px 10px; margin-left:4px;}
 button.active{background:#007acc;color:#fff;}
-.store-badge{height:56px; vertical-align:middle;}
 
-/* 並び・サイズを強制的に揃える */
+/* バッジ共通レイアウト */
 .store-badges {
   display: inline-flex;
   gap: 8px;
   align-items: center;
-  line-height: 0;           /* 画像下の余白を消す */
+  line-height: 0;
 }
-.store-badges .badge {
+.store-badges .badge-appstore {
   display: inline-flex;
-  height: 56px;             /* ← 高さをここで統一（好みで 60px などに変更OK） */
+  height: 56px;   /* ← App Storeバッジの高さを調整 */
 }
-.store-badges .badge img {
-  height: 100% !important;  /* テーマの img{height:auto} に勝つ */
+.store-badges .badge-googleplay {
+  display: inline-flex;
+  height: 56px;   /* ← Google Playバッジの高さを調整 */
+}
+.store-badges .badge-appstore img,
+.store-badges .badge-googleplay img {
+  height: 100% !important;
   width: auto;
   display: block;
 }
-
-
-  
 </style>
