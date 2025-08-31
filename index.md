@@ -61,7 +61,7 @@ Let’s play by “petting” the teddy bears!
 Record your voice and transform it instantly with fun effects like “Ghost” or “Robot”!  
 
 - [Privacy Policy](./VoiceRecEffect/KOETRON_policy.html)
-- [Terms of Service](./VoiceRecEffect/terms/)
+- [Terms of Service](./VoiceRecEffect/terms.html)
 
 ---
 
