@@ -130,11 +130,11 @@ button.active{background:#007acc;color:#fff;}
 }
 .store-badges .badge-appstore {
   display: inline-flex;
-  height: 56px;   /* ← App Storeバッジの高さを調整 */
+  height: 35px;   /* ← App Storeバッジの高さを調整 */
 }
 .store-badges .badge-googleplay {
   display: inline-flex;
-  height: 56px;   /* ← Google Playバッジの高さを調整 */
+  height: 45px;   /* ← Google Playバッジの高さを調整 */
 }
 .store-badges .badge-appstore img,
 .store-badges .badge-googleplay img {
