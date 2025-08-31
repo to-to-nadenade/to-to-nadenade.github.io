@@ -8,7 +8,7 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
   <button id="btn-en">English</button>
 </div>
 
-<section id="lang-ja" class="lang-section active">
+<section id="lang-ja" class="lang-section active" markdown="1">
 
 # Tantanto Company homepage
 スマートフォンのアプリをつくったりしています。  
@@ -39,7 +39,7 @@ Mail: sck54141+githubpages@gmail.com
 
 </section>
 
-<section id="lang-en" class="lang-section">
+<section id="lang-en" class="lang-section" markdown="1">
 
 # to-to homepage
 We create smartphone apps and games.  
