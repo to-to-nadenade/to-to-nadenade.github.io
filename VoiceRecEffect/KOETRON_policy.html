@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -8,12 +7,8 @@
   <meta name="description" content="スマホアプリ『こえとろん』のプライバシーポリシー（iOS / Android 共通）。マイクの取り扱い、広告、解析、子どものプライバシーへの配慮など。" />
   <style>
     :root {
-      --text:#111;
-      --muted:#555;
-      --bg:#fff;
-      --card:#fafafa;
-      --accent:#1a73e8;
-      --border:#e5e7eb;
+      --text:#111; --muted:#555; --bg:#fff; --card:#fafafa;
+      --accent:#1a73e8; --border:#e5e7eb;
     }
     *{box-sizing:border-box}
     body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:var(--bg);line-height:1.75}
@@ -43,12 +38,14 @@
   <header>
     <div class="wrap title">
       <div>
-        <h1>プライバシーポリシー <span class="badge">こえとろん</span></h1>
-        <div class="muted">最終更新日: 2025-08-16 ・ iOS / Android 共通</div>
+        <h1 id="pageTitleJa">プライバシーポリシー <span class="badge">こえとろん</span></h1>
+        <h1 id="pageTitleEn" class="hide">Privacy Policy <span class="badge">Koetron</span></h1>
+        <div class="muted" id="metaJa">最終更新日: 2025-08-16 ・ iOS / Android 共通</div>
+        <div class="muted hide" id="metaEn">Last updated: 2025-08-16 ・ iOS / Android</div>
       </div>
       <div class="lang" aria-label="language switcher">
-        <button id="btnJA" class="active" onclick="setLang('ja')" aria-pressed="true">日本語</button>
-        <button id="btnEN" onclick="setLang('en')" aria-pressed="false">English</button>
+        <button id="btnJA" class="active" aria-pressed="true">日本語</button>
+        <button id="btnEN" aria-pressed="false">English</button>
       </div>
     </div>
   </header>
@@ -56,8 +53,6 @@
   <main class="wrap">
     <!-- Japanese -->
     <article id="lang-ja">
-      
-
       <section>
         <h2>1. はじめに</h2>
         <p>たんたんとカンパニー（以下「当方」）は、スマートフォンアプリ「こえとろん」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリで取り扱う情報の取得・利用・共有・保護について説明するものです。</p>
@@ -92,20 +87,14 @@
         <div class="grid">
           <div>
             <h3>広告</h3>
-            <ul>
-              <li>Google AdMob（広告配信）</li>
-            </ul>
+            <ul><li>Google AdMob（広告配信）</li></ul>
           </div>
           <div>
             <h3>解析・診断</h3>
-            <ul>
-              <li>Firebase（クラッシュ解析、利用状況解析）</li>
-            </ul>
+            <ul><li>Firebase（クラッシュ解析、利用状況解析）</li></ul>
           </div>
         </div>
-        <p>各サービスのプライバシーポリシー：
-          Google プライバシーポリシー    https://policies.google.com/privacy?hl=ja
-        </p>
+        <p>各サービスのプライバシーポリシー：Google プライバシーポリシー https://policies.google.com/privacy?hl=ja</p>
       </section>
 
       <section>
@@ -121,7 +110,7 @@
       <section>
         <h2>8. ユーザーの選択肢</h2>
         <ul>
-          <li><strong>マイク権限</strong>：初回録音時に許可が必要です。誤って拒否した場合は、端末の「設定」&gt;「アプリ」からマイクのアクセス許可を再設定できます。</li>
+          <li><strong>マイク権限</strong>：初回録音時に許可が必要です。誤って拒否した場合は、端末の「設定」＞「アプリ」からマイクのアクセス許可を再設定できます。</li>
           <li><strong>広告識別子</strong>：端末の設定でリセットやパーソナライズ制限が可能です。</li>
           <li><strong>解析の無効化</strong>：OSや端末設定により一部の診断送信を制御できる場合があります。</li>
         </ul>
@@ -135,26 +124,24 @@
       <section>
         <h2>10. お問い合わせ</h2>
         <p>本ポリシーに関するご質問は、以下までご連絡ください。</p>
-        <p><strong>たんたんとカンパニー</strong><br />
+        <p><strong>たんたんとカンパニー</strong><br>
            Eメール：<span class="mono">sck54141+koetron@gmail.com</span></p>
       </section>
     </article>
 
     <!-- English -->
     <article id="lang-en" class="hide">
-  
-
       <section>
         <h2>1. Introduction</h2>
-        <p>Tantan-to Company (“we,” “us,” or “our”) respects your privacy. This Privacy Policy explains how the mobile app “Koetron” (“the App”) handles information: what we collect, how we use it, when we share it, and how we protect it.</p>
+        <p>Tantanto Company (“we,” “us,” or “our”) respects your privacy. This Privacy Policy explains how the mobile app “Koetron” (“the App”) handles information: what we collect, how we use it, when we share it, and how we protect it.</p>
       </section>
 
       <section>
         <h2>2. Information We Collect</h2>
         <ul>
           <li><strong>Microphone Input</strong>: To provide recording features, the App requests access to the device microphone. Recorded audio is processed on device and is not sent to our servers.</li>
-          <li><strong>Usage & Diagnostics (optional)</strong>: To improve quality, we may collect anonymous or de‑identified crash logs and basic usage metrics (e.g., OS version, device model, error details).</li>
-          <li><strong>Advertising Data (if ads are shown)</strong>: Third‑party ad networks (Google AdMob) may use advertising identifiers (IDFA / Google Advertising ID) and device information.</li>
+          <li><strong>Usage & Diagnostics (optional)</strong>: To improve quality, we may collect anonymous or de-identified crash logs and basic usage metrics (e.g., OS version, device model, error details).</li>
+          <li><strong>Advertising Data (if ads are shown)</strong>: Third-party ad networks (Google AdMob) may use advertising identifiers (IDFA / Google Advertising ID) and device information.</li>
         </ul>
       </section>
 
@@ -174,29 +161,23 @@
       </section>
 
       <section>
-        <h2>5. Third‑Party Services We Use</h2>
+        <h2>5. Third-Party Services We Use</h2>
         <div class="grid">
           <div>
             <h3>Advertising</h3>
-            <ul>
-              <li>Google AdMob</li>
-            </ul>
+            <ul><li>Google AdMob</li></ul>
           </div>
           <div>
             <h3>Analytics & Diagnostics</h3>
-            <ul>
-              <li>Firebase (Crashlytics, Analytics)</li>
-            </ul>
+            <ul><li>Firebase (Crashlytics, Analytics)</li></ul>
           </div>
         </div>
-        <p>See also:
-          Google Privacy Policy   https://policies.google.com/privacy
-        </p>
+        <p>See also: Google Privacy Policy https://policies.google.com/privacy</p>
       </section>
 
       <section>
         <h2>6. Children’s Privacy</h2>
-        <p>We take extra care when the App is used by children under 13. We do not knowingly collect personally identifiable information from children. Where applicable, ads are limited to age‑appropriate, contextual content.</p>
+        <p>We take extra care when the App is used by children under 13. We do not knowingly collect personally identifiable information from children. Where applicable, ads are limited to age-appropriate, contextual content.</p>
       </section>
 
       <section>
@@ -207,7 +188,7 @@
       <section>
         <h2>8. Your Choices</h2>
         <ul>
-          <li><strong>Microphone Permission</strong>: Required on first record. If denied, you can re‑enable it in the device settings.</li>
+          <li><strong>Microphone Permission</strong>: Required on first record. If denied, you can re-enable it in the device settings.</li>
           <li><strong>Advertising Identifier</strong>: You can reset or limit ad personalization in your device settings.</li>
           <li><strong>Diagnostics</strong>: Some OS/device settings allow limiting diagnostic sharing.</li>
         </ul>
@@ -215,13 +196,13 @@
 
       <section>
         <h2>9. Changes to This Policy</h2>
-        <p>We may update this policy from time to time. Material changes will be notified in‑app or by updating this page.</p>
+        <p>We may update this policy from time to time. Material changes will be notified in-app or by updating this page.</p>
       </section>
 
       <section>
         <h2>10. Contact</h2>
         <p>For questions about this policy, contact:</p>
-        <p><strong>Tantan‑to Company</strong><br />
+        <p><strong>Tantanto Company</strong><br>
            Email: <span class="mono">sck54141+koetron@gmail.com</span></p>
       </section>
     </article>
@@ -232,25 +213,53 @@
   </footer>
 
   <script>
-    function setLang(lang){
-      const ja = document.getElementById('lang-ja');
-      const en = document.getElementById('lang-en');
-      const bja = document.getElementById('btnJA');
-      const ben = document.getElementById('btnEN');
-      if(lang === 'ja'){
-        ja.classList.remove('hide'); en.classList.add('hide');
-        bja.classList.add('active'); bja.setAttribute('aria-pressed','true');
-        ben.classList.remove('active'); ben.setAttribute('aria-pressed','false');
-        document.documentElement.lang = 'ja';
-        document.title = 'プライバシーポリシー | こえとろん';
-      }else{
-        en.classList.remove('hide'); ja.classList.add('hide');
-        ben.classList.add('active'); ben.setAttribute('aria-pressed','true');
-        bja.classList.remove('active'); bja.setAttribute('aria-pressed','false');
-        document.documentElement.lang = 'en';
-        document.title = 'Privacy Policy | Koetron';
-      }
+    const btnJA = document.getElementById('btnJA');
+    const btnEN = document.getElementById('btnEN');
+    const ja = document.getElementById('lang-ja');
+    const en = document.getElementById('lang-en');
+    const titleJa = document.getElementById('pageTitleJa');
+    const titleEn = document.getElementById('pageTitleEn');
+    const metaJa = document.getElementById('metaJa');
+    const metaEn = document.getElementById('metaEn');
+
+    function applyLang(lang){
+      const isJa = lang === 'ja';
+      ja.classList.toggle('hide', !isJa);
+      en.classList.toggle('hide',  isJa);
+      titleJa.classList.toggle('hide', !isJa);
+      titleEn.classList.toggle('hide',  isJa);
+      metaJa.classList.toggle('hide', !isJa);
+      metaEn.classList.toggle('hide',  isJa);
+
+      btnJA.classList.toggle('active', isJa);
+      btnEN.classList.toggle('active', !isJa);
+      btnJA.setAttribute('aria-pressed', isJa ? 'true':'false');
+      btnEN.setAttribute('aria-pressed', isJa ? 'false':'true');
+
+      document.documentElement.lang = isJa ? 'ja' : 'en';
+      document.title = isJa ? 'プライバシーポリシー | こえとろん' : 'Privacy Policy | Koetron';
+
+      try { localStorage.setItem('ppLang', lang); } catch(e) {}
     }
+
+    // Button events
+    btnJA.addEventListener('click', () => applyLang('ja'));
+    btnEN.addEventListener('click', () => applyLang('en'));
+
+    // Initial language: ?lang -> localStorage -> navigator.language
+    (function initLang(){
+      const params = new URLSearchParams(location.search);
+      const q = (params.get('lang')||'').toLowerCase();
+      if(q === 'ja' || q === 'en'){ return applyLang(q); }
+
+      try {
+        const saved = localStorage.getItem('ppLang');
+        if(saved === 'ja' || saved === 'en'){ return applyLang(saved); }
+      } catch(e){}
+
+      const nav = (navigator.language || navigator.userLanguage || 'ja').toLowerCase();
+      applyLang(nav.startsWith('ja') ? 'ja' : 'en');
+    })();
   </script>
 </body>
 </html>
