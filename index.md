@@ -47,7 +47,9 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 - [利用規約](./VoiceRecEffect/terms.html)
 
 ---
-X <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+
+X: <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+
 ---
 
 ## お問い合わせ
@@ -95,6 +97,10 @@ Record your voice and transform it instantly with fun effects like “Ghost” o
 </p>
 - [Privacy Policy](./VoiceRecEffect/KOETRON_policy.html)  
 - [Terms of Service](./VoiceRecEffect/terms.html)
+
+---
+
+X: <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
 
 ---
 
