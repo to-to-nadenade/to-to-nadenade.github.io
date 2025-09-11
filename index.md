@@ -37,6 +37,12 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 ## こえとろん 🎙️
 声を録音して「おばけ」「ロボット」などに変身できる、楽しいボイスエフェクトアプリ！
 
+<p class="store-badges">
+  <a class="badge-appstore" href="https://apps.apple.com/us/app/koetron/id6751819556">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+         alt="Download on the App Store">
+  </a>
+</p>
 - [プライバシーポリシー](./VoiceRecEffect/KOETRON_policy.html)  
 - [利用規約](./VoiceRecEffect/terms.html)
 
