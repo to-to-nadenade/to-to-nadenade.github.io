@@ -47,6 +47,8 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 - [利用規約](./VoiceRecEffect/terms.html)
 
 ---
+X <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+---
 
 ## お問い合わせ
 Mail: sck54141+githubpages@gmail.com
@@ -81,7 +83,16 @@ Let’s play by “petting” the teddy bears!
 
 ## Koetron 🎙️
 Record your voice and transform it instantly with fun effects like “Ghost” or “Robot”!
-
+<p class="store-badges">
+  <a class="badge-appstore" href="https://apps.apple.com/us/app/pat-the-bear/id6747101851">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+         alt="Download on the App Store">
+  </a>
+  <a class="badge-googleplay" href="https://apps.apple.com/us/app/koetron/id6751819556">
+    <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+         alt="Get it on Google Play">
+  </a>
+</p>
 - [Privacy Policy](./VoiceRecEffect/KOETRON_policy.html)  
 - [Terms of Service](./VoiceRecEffect/terms.html)
 
