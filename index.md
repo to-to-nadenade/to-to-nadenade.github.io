@@ -10,7 +10,7 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 <section id="lang-ja" class="lang-section active" markdown="1">
 
-# たんたんとカンパニーです
+# たんたんとカンパニー
 スマートフォンアプリの開発・運営をしています
 
 ---
