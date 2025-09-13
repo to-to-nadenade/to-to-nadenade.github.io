@@ -10,8 +10,8 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 <section id="lang-ja" class="lang-section active" markdown="1">
 
-# たんたんとカンパニー homepage
-スマートフォンのアプリをつくったりしています。
+# たんたんとカンパニーです
+スマートフォンアプリの開発・運営をしています・
 
 ---
 
@@ -49,6 +49,7 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 ---
 
 X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+Zenn : <a href="https://zenn.dev/toto_tantanto">https://zenn.dev/toto_tantanto</a>
 
 ---
 
@@ -59,7 +60,7 @@ Mail : sck54141+githubpages@gmail.com
 
 <section id="lang-en" class="lang-section" markdown="1">
 
-# Tantanto Company homepage
+# Tantanto Company
 We create smartphone apps and games.
 
 ---
@@ -97,6 +98,7 @@ Record your voice and transform it instantly with fun effects like “Ghost” o
 ---
 
 X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+Zenn : <a href="https://zenn.dev/toto_tantanto">https://zenn.dev/toto_tantanto</a>
 
 ---
 
