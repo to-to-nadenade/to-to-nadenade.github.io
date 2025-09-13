@@ -1,5 +1,5 @@
 ---
-title: Tantanto Company homepage
+title: Tantanto Company
 description: Tantanto Company（たんたんとカンパニー）のホームページ。スマホアプリなどを作っています。
 ---
 
