@@ -1,6 +1,6 @@
 ---
-title: Tantanto Company
-description: Tantanto Company（たんたんとカンパニー）のホームページ。スマホアプリなどを作っています。
+title: たんたんとカンパニー / Tantanto Company
+description: スマートフォンアプリの開発・運営などを行っています / We develop and operate mobile apps
 ---
 
 <div style="text-align:right; margin:1em 0;">
