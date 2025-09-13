@@ -11,7 +11,7 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 <section id="lang-ja" class="lang-section active" markdown="1">
 
 # たんたんとカンパニーです
-スマートフォンアプリの開発・運営をしています・
+スマートフォンアプリの開発・運営をしています
 
 ---
 
@@ -48,7 +48,7 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 ---
 
-X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a><br>
 Zenn : <a href="https://zenn.dev/toto_tantanto">https://zenn.dev/toto_tantanto</a>
 
 ---
@@ -97,7 +97,7 @@ Record your voice and transform it instantly with fun effects like “Ghost” o
 
 ---
 
-X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a>
+X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a><br>
 Zenn : <a href="https://zenn.dev/toto_tantanto">https://zenn.dev/toto_tantanto</a>
 
 ---
