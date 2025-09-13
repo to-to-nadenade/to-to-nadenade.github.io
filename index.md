@@ -341,60 +341,9 @@ button.active{background:#007acc;color:#fff;}
   .social-row{ grid-template-columns: 1fr; }
 }
 
-  /* ===== Hero heading (最初のh1＋直後のpだけを装飾) ===== */
 
-/* 見出しをグラデ文字＋下線バーで強調 */
-.lang-section.active > h1:first-of-type{
-  margin: 6px 0 10px;
-  font-weight: 800;
-  line-height: 1.15;
-  letter-spacing: .01em;
-  font-size: clamp(28px, 4vw, 42px);
-  background: linear-gradient(90deg,#111 0%, #0ea5e9 40%, #8b5cf6 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  position: relative;
-}
-.lang-section.active > h1:first-of-type::after{
-  content:"";
-  display:block;
-  width: 72px; height: 5px;
-  border-radius: 999px;
-  margin-top: 12px;
-  background: linear-gradient(90deg,#22d3ee 0%, #60a5fa 50%, #a78bfa 100%);
-  box-shadow: 0 2px 10px rgba(96,165,250,.35);
-}
 
-/* 説明文を“リード文”に */
-.lang-section.active > h1:first-of-type + p{
-  margin: 10px 0 24px;
-  font-size: clamp(15px, 1.8vw, 18px);
-  line-height: 1.8;
-  color: #374151;                   /* slate-700 */
-  background:
-    radial-gradient(120% 90% at 0% 0%, rgba(14,165,233,.08), rgba(139,92,246,.06) 40%, transparent 70%),
-    linear-gradient(180deg, rgba(0,0,0,.04), rgba(0,0,0,0));
-  padding: 10px 12px;
-  border-radius: 12px;
-  border: 1px solid rgba(0,0,0,.06);
-  box-shadow: 0 1px 6px rgba(0,0,0,.05);
-}
 
-/* ダークモード最適化 */
-@media (prefers-color-scheme: dark){
-  .lang-section.active > h1:first-of-type{
-    background: linear-gradient(90deg,#e5e7eb 0%, #60a5fa 45%, #a78bfa 100%);
-  }
-  .lang-section.active > h1:first-of-type + p{
-    color: #e5e7eb;
-    background:
-      radial-gradient(120% 90% at 0% 0%, rgba(56,189,248,.14), rgba(167,139,250,.12) 40%, transparent 70%),
-      linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,0));
-    border-color: rgba(255,255,255,.08);
-    box-shadow: 0 1px 10px rgba(0,0,0,.35);
-  }
-}
 
 </style>
 
