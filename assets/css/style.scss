@@ -1,0 +1,24 @@
+---
+---
+@import "{{ site.theme }}";   /* 公式テーマを先に読み込み */
+
+.page-header {
+  /* 画像 + うっすら暗幕（文字の可読性UP） */
+  background-image:
+    linear-gradient(rgba(0,0,0,.35), rgba(0,0,0,.35)),
+    url("/assets/img/IMG_3804.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: #fff;               /* 文字を白に */
+  text-shadow: 0 1px 2px rgba(0,0,0,.35);
+
+  /* 余白はお好みで（Cayman/Slateの既定値より少し高め） */
+  padding: 3.5rem 1rem;
+}
+
+/* モバイルは少し低めにして見出しが折れにくいように */
+@media (max-width: 640px) {
+  .page-header { padding: 2.5rem 1rem; }
+}
