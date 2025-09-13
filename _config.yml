@@ -1,8 +1,9 @@
 title: たんたんとカンパニー / Tantanto Company
 description: スマートフォンアプリの開発・運営をしています / We develop and operate mobile apps
+theme: jekyll-theme-merlot
 
 
-remote_theme: pages-themes/modernist@v0.2.0
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-gem "github-pages", group: :jekyll_plugins
+# remote_theme: pages-themes/modernist@v0.2.0
+# plugins:
+# - jekyll-remote-theme # add this line to the plugins list if you already have one
+# gem "github-pages", group: :jekyll_plugins
