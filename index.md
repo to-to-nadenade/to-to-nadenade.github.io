@@ -48,8 +48,43 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 ---
 
-X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a><br>
-Zenn : <a href="https://zenn.dev/toto_tantanto">https://zenn.dev/toto_tantanto</a>
+<section class="social-section" aria-label="Social links">
+  <h3 class="social-title">Follow</h3>
+  <div class="social-row">
+    <!-- X -->
+    <a class="social-btn social-x"
+       href="https://x.com/suisei1975"
+       target="_blank" rel="me noopener noreferrer"
+       aria-label="Follow on X (@suisei1975)" title="X（@suisei1975）">
+      <span class="icon">
+        <!-- X logo (SVG) -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18.9 3H21l-6.7 7.6L22 21h-7l-5-6.8L4.5 21H3l7.2-8.4L2 3h7l4.6 6.3L18.9 3z"/>
+        </svg>
+      </span>
+      <span class="label">
+        <strong>X</strong><span class="sub">@suisei1975</span>
+      </span>
+    </a>
+
+    <!-- Zenn -->
+    <a class="social-btn social-zenn"
+       href="https://zenn.dev/toto_tantanto"
+       target="_blank" rel="me noopener noreferrer"
+       aria-label="Read on Zenn (toto_tantanto)" title="Zenn（toto_tantanto）">
+      <span class="icon">
+        <!-- シンプルZアイコン -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 6h14v3H11l8 9H5v-3h8L5 6z"/>
+        </svg>
+      </span>
+      <span class="label">
+        <strong>Zenn</strong><span class="sub">toto_tantanto</span>
+      </span>
+    </a>
+  </div>
+</section>
+
 
 ---
 
@@ -163,4 +198,113 @@ button.active{background:#007acc;color:#fff;}
   width: auto;
   display: block;
 }
+  /* ============ Social Buttons ============ */
+:root{
+  --card-bg: #fff;
+  --card-fg: #111;
+  --muted: #6b7280;
+  --ring: #60a5fa;
+  --x-bg: #111;
+  --x-fg: #fff;
+  --z-bg: #155e75; /* 青緑系 */
+  --z-fg: #fff;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --card-bg: #111418;
+    --card-fg: #e5e7eb;
+    --muted: #9ca3af;
+    --ring: #60a5fa;
+    --x-bg: #0f1114;
+    --x-fg: #e5e7eb;
+    --z-bg: #0b3d46;
+    --z-fg: #e5e7eb;
+  }
+}
+
+.social-section{
+  margin: 32px 0 20px;
+}
+.social-title{
+  margin: 0 0 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--muted);
+  letter-spacing: .02em;
+}
+.social-row{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 12px;
+}
+
+.social-btn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  text-decoration: none;
+  position: relative;
+  overflow: clip;
+  transition: transform .15s ease, box-shadow .2s ease, background-color .2s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  outline: none;
+}
+.social-btn:focus-visible{
+  box-shadow: 0 0 0 3px var(--ring);
+}
+
+.social-btn .icon{
+  flex: 0 0 36px;
+  width: 36px; height: 36px;
+  display: grid; place-items: center;
+  border-radius: 10px;
+  background: rgba(255,255,255,.12);
+}
+.social-btn .icon svg{
+  width: 22px; height: 22px;
+  fill: currentColor;
+}
+
+.social-btn .label{
+  display: flex; flex-direction: column;
+  line-height: 1.15;
+  color: inherit;
+}
+.social-btn .label .sub{
+  font-size: .85rem; color: rgba(255,255,255,.8);
+}
+.social-btn strong{ font-weight: 700; }
+
+/* Brand variants */
+.social-x{
+  background: var(--x-bg);
+  color: var(--x-fg);
+}
+.social-x .icon{
+  background: #222;
+  color: var(--x-fg);
+}
+
+.social-zenn{
+  background: var(--z-bg);
+  color: var(--z-fg);
+}
+.social-zenn .icon{
+  background: rgba(0,0,0,.12);
+  color: var(--z-fg);
+}
+
+/* Hover / active */
+@media (hover:hover){
+  .social-btn:hover{ transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.15); }
+}
+.social-btn:active{ transform: translateY(0); box-shadow: 0 2px 10px rgba(0,0,0,.08); }
+
+/* 小さめ画面での余白 */
+@media (max-width: 420px){
+  .social-row{ grid-template-columns: 1fr; }
+}
+
 </style>
