@@ -172,9 +172,10 @@ btnEn.addEventListener('click', () => applyLang('en'));
 </script>
 
 <style>
+/* ================= Base (既存UI) ================= */
 .lang-section{display:none;}
 .lang-section.active{display:block;}
-button{padding:4px 10px; margin-left:4px;}
+button{padding:4px 10px; margin-left:4px; border:0; border-radius:8px; cursor:pointer;}
 button.active{background:#007acc;color:#fff;}
 
 /* バッジ共通レイアウト */
@@ -184,47 +185,39 @@ button.active{background:#007acc;color:#fff;}
   align-items: center;
   line-height: 0;
 }
-.store-badges .badge-appstore {
-  display: inline-flex;
-  height: 38px;   /* ← App Storeバッジの高さを調整 */
-}
-.store-badges .badge-googleplay {
-  display: inline-flex;
-  height: 47px;   /* ← Google Playバッジの高さを調整 */
-}
+.store-badges .badge-appstore { display:inline-flex; height:38px; }
+.store-badges .badge-googleplay { display:inline-flex; height:47px; }
 .store-badges .badge-appstore img,
 .store-badges .badge-googleplay img {
   height: 100% !important;
   width: auto;
   display: block;
 }
-  /* ============ Social Buttons ============ */
+
+/* ================= Theme Tokens ================= */
 :root{
-  --card-bg: #fff;
-  --card-fg: #111;
-  --muted: #6b7280;
-  --ring: #60a5fa;
-  --x-bg: #111;
-  --x-fg: #fff;
-  --z-bg: #155e75; /* 青緑系 */
-  --z-fg: #fff;
+  --card-bg: #ffffff;
+  --card-fg: #111111;
+  --muted:   #6b7280;   /* slate-500 */
+  --ring:    #60a5fa;   /* blue-400 */
+
+  --x-bg: #111111;  --x-fg: #ffffff;
+  --z-bg: #155e75;  --z-fg: #ffffff; /* 青緑系 */
 }
 @media (prefers-color-scheme: dark){
   :root{
     --card-bg: #111418;
     --card-fg: #e5e7eb;
-    --muted: #9ca3af;
-    --ring: #60a5fa;
-    --x-bg: #0f1114;
-    --x-fg: #e5e7eb;
-    --z-bg: #0b3d46;
-    --z-fg: #e5e7eb;
+    --muted:   #9ca3af;
+    --ring:    #60a5fa;
+
+    --x-bg: #0f1114;  --x-fg: #e5e7eb;
+    --z-bg: #0b3d46;  --z-fg: #e5e7eb;
   }
 }
 
-.social-section{
-  margin: 32px 0 20px;
-}
+/* ================= Social Buttons ================= */
+.social-section{ margin: 32px 0 20px; }
 .social-title{
   margin: 0 0 10px;
   font-size: 1rem;
@@ -232,6 +225,7 @@ button.active{background:#007acc;color:#fff;}
   color: var(--muted);
   letter-spacing: .02em;
 }
+
 .social-row{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
@@ -247,13 +241,13 @@ button.active{background:#007acc;color:#fff;}
   text-decoration: none;
   position: relative;
   overflow: clip;
+  background: var(--card-bg);
+  color: var(--card-fg);
   transition: transform .15s ease, box-shadow .2s ease, background-color .2s ease;
   box-shadow: 0 2px 10px rgba(0,0,0,.06);
   outline: none;
 }
-.social-btn:focus-visible{
-  box-shadow: 0 0 0 3px var(--ring);
-}
+.social-btn:focus-visible{ box-shadow: 0 0 0 3px var(--ring); }
 
 .social-btn .icon{
   flex: 0 0 36px;
@@ -261,24 +255,27 @@ button.active{background:#007acc;color:#fff;}
   display: grid; place-items: center;
   border-radius: 10px;
   background: rgba(255,255,255,.12);
+  color: inherit;
 }
-.social-btn .icon svg{
-  width: 22px; height: 22px;
-  fill: currentColor;
-}
+.social-btn .icon svg{ width:22px; height:22px; fill: currentColor; }
 
-/* 文字を読みやすくする調整 */
-.social-btn .label {
-  color: #fff;              /* 常に明るい文字 */
-  font-weight: 600;         /* 少し太め */
+/* —— 読みやすさ最優先の文字色（強制上書き） —— */
+.social-btn .label,
+.social-btn .label strong,
+.social-btn .label .sub{
+  color: #ffffff !important;
 }
-
-.social-btn .label .sub {
-  font-size: 0.9rem;
-  color: #e5e7eb;           /* 薄いグレーに固定 */
-  font-weight: 400;
+.social-btn .label{
+  display:flex; flex-direction:column;
+  line-height:1.15;
+  font-weight:600;
 }
-.social-btn strong{ font-weight: 700; }
+.social-btn .label .sub{
+  font-size:.9rem;
+  font-weight:400;
+  color:#f1f5f9 !important; /* 少しだけコントラスト弱め */
+}
+.social-btn strong{ font-weight:700; }
 
 /* Brand variants */
 .social-x{
@@ -286,7 +283,7 @@ button.active{background:#007acc;color:#fff;}
   color: var(--x-fg);
 }
 .social-x .icon{
-  background: #222;
+  background: rgba(255,255,255,.14);
   color: var(--x-fg);
 }
 
@@ -309,5 +306,5 @@ button.active{background:#007acc;color:#fff;}
 @media (max-width: 420px){
   .social-row{ grid-template-columns: 1fr; }
 }
-
 </style>
+
