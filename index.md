@@ -132,8 +132,42 @@ Record your voice and transform it instantly with fun effects like “Ghost” o
 
 ---
 
-X : <a href="https://x.com/suisei1975">https://x.com/suisei1975</a><br>
-Zenn : <a href="https://zenn.dev/toto_tantanto">https://zenn.dev/toto_tantanto</a>
+<section class="social-section" aria-label="Social links">
+  <h3 class="social-title">Follow</h3>
+  <div class="social-row">
+    <!-- X -->
+    <a class="social-btn social-x"
+       href="https://x.com/suisei1975"
+       target="_blank" rel="me noopener noreferrer"
+       aria-label="Follow on X (@suisei1975)" title="X（@suisei1975）">
+      <span class="icon">
+        <!-- X logo (SVG) -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M18.9 3H21l-6.7 7.6L22 21h-7l-5-6.8L4.5 21H3l7.2-8.4L2 3h7l4.6 6.3L18.9 3z"/>
+        </svg>
+      </span>
+      <span class="label">
+        <strong>X</strong><span class="sub">@suisei1975</span>
+      </span>
+    </a>
+
+    <!-- Zenn -->
+    <a class="social-btn social-zenn"
+       href="https://zenn.dev/toto_tantanto"
+       target="_blank" rel="me noopener noreferrer"
+       aria-label="Read on Zenn (toto_tantanto)" title="Zenn（toto_tantanto）">
+      <span class="icon">
+        <!-- シンプルZアイコン -->
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 6h14v3H11l8 9H5v-3h8L5 6z"/>
+        </svg>
+      </span>
+      <span class="label">
+        <strong>Zenn</strong><span class="sub">toto_tantanto</span>
+      </span>
+    </a>
+  </div>
+</section>
 
 ---
 
