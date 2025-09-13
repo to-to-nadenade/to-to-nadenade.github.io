@@ -267,13 +267,16 @@ button.active{background:#007acc;color:#fff;}
   fill: currentColor;
 }
 
-.social-btn .label{
-  display: flex; flex-direction: column;
-  line-height: 1.15;
-  color: inherit;
+/* 文字を読みやすくする調整 */
+.social-btn .label {
+  color: #fff;              /* 常に明るい文字 */
+  font-weight: 600;         /* 少し太め */
 }
-.social-btn .label .sub{
-  font-size: .85rem; color: rgba(255,255,255,.8);
+
+.social-btn .label .sub {
+  font-size: 0.9rem;
+  color: #e5e7eb;           /* 薄いグレーに固定 */
+  font-weight: 400;
 }
 .social-btn strong{ font-weight: 700; }
 
