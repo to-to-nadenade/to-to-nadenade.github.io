@@ -10,9 +10,6 @@ description: Tantanto Company（たんたんとカンパニー）のホームペ
 
 <section id="lang-ja" class="lang-section active" markdown="1">
 
-# たんたんとカンパニー
-スマートフォンアプリの開発・運営をしています
-
 ---
 
 ## なでくまCombo! 🧸
@@ -94,9 +91,6 @@ Mail : sck54141+githubpages@gmail.com
 </section>
 
 <section id="lang-en" class="lang-section" markdown="1">
-
-# Tantanto Company
-We create smartphone apps and games.
 
 ---
 
