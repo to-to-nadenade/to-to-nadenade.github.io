@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>プライバシーポリシー | SparkPicker</title>
+  <meta name="description" content="iOSアプリ『SparkPicker（スパークピッカー）』のプライバシーポリシー。端末内保存データの取り扱い、第三者提供、削除方法など。" />
+  <style>
+    :root {
+      --text:#111; --muted:#555; --bg:#fff; --card:#fafafa;
+      --accent:#1a73e8; --border:#e5e7eb;
+    }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji";color:var(--text);background:var(--bg);line-height:1.75}
+    header{position:sticky;top:0;background:rgba(255,255,255,.9);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--border);z-index:10}
+    .wrap{max-width:960px;margin:0 auto;padding:1.25rem}
+    .title{display:flex;flex-wrap:wrap;gap:.5rem;align-items:baseline;justify-content:space-between}
+    h1{font-size:1.5rem;margin:.25rem 0}
+    .badge{font-size:.8rem;color:#fff;background:var(--accent);padding:.15rem .5rem;border-radius:.5rem}
+    .lang{display:flex;gap:.5rem;align-items:center}
+    .lang button{border:1px solid var(--border);background:var(--card);padding:.4rem .6rem;border-radius:.5rem;cursor:pointer}
+    .lang button.active{border-color:var(--accent);color:var(--accent)}
+    main{padding:1rem}
+    section{background:var(--card);border:1px solid var(--border);border-radius:1rem;padding:1rem;margin:1rem 0}
+    h2{font-size:1.1rem;margin-top:0}
+    ul{padding-left:1.25rem}
+    small, .muted{color:var(--muted)}
+    a{color:var(--accent)}
+    footer{border-top:1px solid var(--border);margin-top:2rem}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+    .note{background:#fff8db;border:1px solid #f6e05e;border-radius:1rem}
+    .hide{display:none}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap title">
+      <div>
+        <h1 id="pageTitleJa">プライバシーポリシー <span class="badge">SparkPicker</span></h1>
+        <h1 id="pageTitleEn" class="hide">Privacy Policy <span class="badge">SparkPicker</span></h1>
+        <!-- TODO: 最終更新日を更新 -->
+        <div class="muted" id="metaJa">最終更新日: 2026-02-01</div>
+        <div class="muted hide" id="metaEn">Last updated: 2026-02-01</div>
+      </div>
+      <div class="lang" aria-label="language switcher">
+        <button id="btnJA" class="active" aria-pressed="true">日本語</button>
+        <button id="btnEN" aria-pressed="false">English</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <!-- Japanese -->
+    <article id="lang-ja">
+      <section>
+        <h2>1. はじめに</h2>
+        <p>たんたんとカンパニー（以下「当方」）は、スマートフォンアプリ「SparkPicker（スパークピッカー）」（以下「本アプリ」）におけるユーザーのプライバシーを尊重し、個人情報の保護に努めます。本ポリシーは、本アプリで取り扱う情報の保存・利用・共有・保護について説明するものです。</p>
+      </section>
+
+      <section>
+        <h2>2. 端末内に保存される情報</h2>
+        <ul>
+          <li><strong>ユーザーが入力するデータ</strong>：リスト名、項目名、メモ、評価（スコア）など、本アプリの機能を利用するためにユーザーが入力した情報。</li>
+          <li><strong>端末内の保存データ</strong>：本アプリは、入力データをユーザーの端末内に保存します。</li>
+        </ul>
+
+        <section class="note">
+          <h2 style="font-size:1rem;margin:.25rem 0;">重要</h2>
+          <ul>
+            <li>本アプリは、ユーザーの入力データを<strong>当方のサーバーへ送信しません</strong>。</li>
+            <li>本アプリは、広告配信を行いません。</li>
+            <li>本アプリは、第三者の解析ツール（アナリティクス）を利用しません。</li>
+            <li>本アプリは、iCloud 等のクラウド同期を提供しません。</li>
+            <li>本アプリは、アカウント登録（メールアドレス・氏名等）を求めません。</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>3. 利用目的</h2>
+        <ul>
+          <li>リスト作成、項目管理、評価（スコア算出）など、本アプリの機能提供</li>
+          <li>不具合の修正、品質向上</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. 第三者提供</h2>
+        <p>当方は、法令に基づく場合を除き、本アプリにより端末内に保存される情報を第三者へ提供（販売・貸与・共有）しません。</p>
+      </section>
+
+      <section>
+        <h2>5. セキュリティ</h2>
+        <p>当方は、情報の漏えい・滅失・毀損を防止するため、適切で合理的な安全管理措置を講じます。</p>
+      </section>
+
+      <section>
+        <h2>6. データの保存と削除</h2>
+        <ul>
+          <li>本アプリのデータはユーザーの端末内に保存されます。</li>
+          <li>アプリを削除すると、端末内に保存されているデータは削除されます。</li>
+          <li>「最近削除した項目（ごみ箱）」機能があり、ごみ箱のデータは一定期間後に自動的に削除されます。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. お子様のプライバシー</h2>
+        <p>当方は、お子様を含むすべてのユーザーのプライバシーに配慮します。当方が個人を特定できる情報を意図的に収集することはありません。</p>
+      </section>
+
+      <section>
+        <h2>8. ポリシーの変更</h2>
+        <p>本ポリシーは必要に応じて改定されます。重要な変更がある場合は、本ページの更新によりお知らせします。</p>
+      </section>
+
+      <section>
+        <h2>9. お問い合わせ</h2>
+        <p>本ポリシーに関するご質問は、以下までご連絡ください。</p>
+        <p><strong>たんたんとカンパニー</strong><br>
+          Eメール：<span class="mono">sck54141+sparkpicker.pol@gmail.com</span></p>
+  
+      </section>
+    </article>
+
+    <!-- English -->
+    <article id="lang-en" class="hide">
+      <section>
+        <h2>1. Introduction</h2>
+        <p>Tantanto Company (“we,” “us,” or “our”) respects your privacy. This Privacy Policy explains how the mobile app “SparkPicker” (“the App”) handles data stored on your device: how it is used, protected, and when it may be shared.</p>
+      </section>
+
+      <section>
+        <h2>2. Information Stored on Your Device</h2>
+        <ul>
+          <li><strong>User-Provided Data</strong>: List names, item titles, notes, ratings/scores, and other content you enter to use the App.</li>
+          <li><strong>On-Device Storage</strong>: The App stores your data locally on your device.</li>
+        </ul>
+
+        <section class="note">
+          <h2 style="font-size:1rem;margin:.25rem 0;">Important</h2>
+          <ul>
+            <li>The App does <strong>not</strong> send your entered data to our servers.</li>
+            <li>The App does not serve ads.</li>
+            <li>The App does not use third-party analytics tools.</li>
+            <li>The App does not provide cloud sync (including iCloud sync).</li>
+            <li>The App does not require account registration (no email/name is required).</li>
+          </ul>
+        </section>
+      </section>
+
+      <section>
+        <h2>3. How We Use Information</h2>
+        <ul>
+          <li>Provide core features such as list management and scoring</li>
+          <li>Fix bugs and improve quality</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Sharing with Third Parties</h2>
+        <p>We do not sell, rent, or share information stored by the App with third parties, except when required by law.</p>
+      </section>
+
+      <section>
+        <h2>5. Security</h2>
+        <p>We implement reasonable safeguards designed to protect information against unauthorized access, alteration, disclosure, or destruction.</p>
+      </section>
+
+      <section>
+        <h2>6. Data Storage & Deletion</h2>
+        <ul>
+          <li>Your data is stored locally on your device.</li>
+          <li>Deleting the App removes locally stored data.</li>
+          <li>“Recently Deleted (Trash)” items are automatically deleted after a certain period of time.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>7. Children’s Privacy</h2>
+        <p>We take extra care to protect children’s privacy. We do not knowingly collect personally identifiable information.</p>
+      </section>
+
+      <section>
+        <h2>8. Changes to This Policy</h2>
+        <p>We may update this policy from time to time. Material changes will be notified by updating this page.</p>
+      </section>
+
+      <section>
+        <h2>9. Contact</h2>
+        <p>For questions about this policy, contact:</p>
+        <p><strong>Tantanto Company</strong><br>
+          Email: <span class="mono">sck54141+sparkpicker.pol@gmail.com</span></p>
+        <p class="muted"><small>Replace the email address as needed.</small></p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="wrap">
+    <p class="muted">© 2026 たんたんとカンパニー / Tantanto Company</p>
+  </footer>
+
+  <script>
+    const btnJA = document.getElementById('btnJA');
+    const btnEN = document.getElementById('btnEN');
+    const ja = document.getElementById('lang-ja');
+    const en = document.getElementById('lang-en');
+    const titleJa = document.getElementById('pageTitleJa');
+    const titleEn = document.getElementById('pageTitleEn');
+    const metaJa = document.getElementById('metaJa');
+    const metaEn = document.getElementById('metaEn');
+
+    function applyLang(lang){
+      const isJa = lang === 'ja';
+      ja.classList.toggle('hide', !isJa);
+      en.classList.toggle('hide',  isJa);
+      titleJa.classList.toggle('hide', !isJa);
+      titleEn.classList.toggle('hide',  isJa);
+      metaJa.classList.toggle('hide', !isJa);
+      metaEn.classList.toggle('hide',  isJa);
+
+      btnJA.classList.toggle('active', isJa);
+      btnEN.classList.toggle('active', !isJa);
+      btnJA.setAttribute('aria-pressed', isJa ? 'true':'false');
+      btnEN.setAttribute('aria-pressed', isJa ? 'false':'true');
+
+      document.documentElement.lang = isJa ? 'ja' : 'en';
+      document.title = isJa ? 'プライバシーポリシー | SparkPicker' : 'Privacy Policy | SparkPicker';
+
+      try { localStorage.setItem('ppLang', lang); } catch(e) {}
+    }
+
+    btnJA.addEventListener('click', () => applyLang('ja'));
+    btnEN.addEventListener('click', () => applyLang('en'));
+
+    (function initLang(){
+      const params = new URLSearchParams(location.search);
+      const q = (params.get('lang')||'').toLowerCase();
+      if(q === 'ja' || q === 'en'){ return applyLang(q); }
+
+      try {
+        const saved = localStorage.getItem('ppLang');
+        if(saved === 'ja' || saved === 'en'){ return applyLang(saved); }
+      } catch(e){}
+
+      const nav = (navigator.language || navigator.userLanguage || 'ja').toLowerCase();
+      applyLang(nav.startsWith('ja') ? 'ja' : 'en');
+    })();
+  </script>
+</body>
+</html>
