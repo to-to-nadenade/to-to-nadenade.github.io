@@ -109,6 +109,21 @@ Mail : sck54141+githubpages@gmail.com
 
 ---
 
+## Fun-First List
+It’s a list app that lets you evaluate items using your own criteria and rank them by total score.
+
+<p class="store-badges">
+  <a class="badge-appstore" href="https://apps.apple.com/us/app/fun-first-list/id6759604871">
+    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+         alt="Download on the App Store">
+  </a>
+</p>
+
+- [Privacy Policy](./SparkPicker/SparkPicker_policy.html)
+- [Terms of Service](./SparkPicker/terms.html)
+
+---
+
 ## Pat the Bear! 🧸
 Let’s play by “petting” the teddy bears!  
 **Pat the Bear!** is a cute and fun casual game with adorable stuffed animals.
